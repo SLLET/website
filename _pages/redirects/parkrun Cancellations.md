@@ -1,9 +1,11 @@
 ---
-layout: default
-permalink: /pc
+layout: page
 title: parkrun Cancellations
-date: 2021-12-31
+tag: parkrun
+date: 2021-05-27
+permalink: /parkrun-cancellations/
 ---
+
 <head>
   <meta http-equiv="refresh" content=".0; URL=https://pc.josh.me.uk/" />
 </head>
