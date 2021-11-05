@@ -4,7 +4,8 @@ title: "The SLLET Radio Show"
 episode: 1
 season: 1
 artwork: https://www.dropbox.com/s/fi1cge2efs8xx05/SLLET%20radio%20square.png?raw=1
-people: ['Host':['Josh Brunning', 'Dan Jellicoe'], 'Guests': ['Fred Jackson', 'Zsombor Szőke']]
+people: ['Host':['<a href="/people/joshbrunning">Josh Brunning</a>', '<a href="/people/danjellicoe">Dan Jellicoe</a>'], 'Guests': ['<a href="/people/fredjackson">Fred Jackson</a>', '<a href="/people/zsomborszoke">Zsombor Szőke</a>']]
+names: ['joshbrunning','danjellicoe','fredjackson','zsomborszoke']
 
 layout: podcast
 date: 2021-10-27

@@ -10,6 +10,7 @@ filelength: 589824
 duration: 46
 explicit: No
 people: ['Host':'Josh Brunning']
+names: ['joshbrunning']
 
 layout: podcast
 date: 2021-09-28 02:31 +0100
