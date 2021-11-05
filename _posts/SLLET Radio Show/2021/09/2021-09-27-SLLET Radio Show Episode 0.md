@@ -5,11 +5,11 @@ type: Trailer
 episode: Null
 season: Null
 artwork: https://www.dropbox.com/s/fi1cge2efs8xx05/SLLET%20radio%20square.png?raw=1
-mp3: https://www.dropbox.com/s/991ynug1xh6s8nl/02.mp3?raw=1
+mp3: https://www.dropbox.com/s/1ixhutvhhh08nwd/00.mp3?raw=1
 filelength: 589824
 duration: 46
 explicit: No
-people: ['Host':'Josh Brunning']
+people: ['Host':'<a href="/people/joshbrunning">Josh Brunning</a>']
 names: ['joshbrunning']
 
 layout: podcast

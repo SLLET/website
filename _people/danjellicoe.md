@@ -1,5 +1,7 @@
 ---
 short_name: danjellicoe
-name: Dan Jellicoe
+title: Dan Jellicoe
 position: SLLET Student, Radio Host
+twitter: DanielJellicoe
+linkedin: daniel-jellicoe
 ---

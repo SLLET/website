@@ -1,5 +1,6 @@
 ---
 short_name: fredjackson
-name: Fred Jackson
+title: Fred Jackson
 position: SLLET Student
+linkedin: fred-jackson-a11524225
 ---

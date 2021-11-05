@@ -1,5 +1,6 @@
 ---
 short_name: zsomborszoke
-name: Zsombor Szőke
+title: Zsombor Szőke
 position: SLLET Student
+linkedin: zsomborszoke
 ---
