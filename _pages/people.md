@@ -5,10 +5,11 @@ permalink: people
 ---
 <h1>People</h1>
 
-<div>
+<div style="display:flex; flex-wrap:wrap; justify-content: space-evenly; align-items: center">
   {% for person in site.people %}
-    <div>
-      <h2 style="margin-bottom: 0;"><a href="{{ person.url }}">{{ person.title }}</a></h2>
+    <div style="text-align:center">
+      <!--{% unless person.photo.normalize_whitespace == "" %}<img width="200px" src="{{ person.photo | normalize_whitespace }}"/>{% endunless %}-->
+      <h2 style="margin: 0;"><a href="{{ person.url }}">{{ person.title | replace: " ", "&nbsp;" }}</a></h2>
       <p class="post_date" style="margin: 0;">{{ person.position }}</p>
       <div style="text-align: center;">
       {% if person.dribbble %}<a href="https://dribbble.com/{{ person.dribbble }}"><i class="svg-icon dribbble"></i></a>{% endif %}
@@ -27,7 +28,7 @@ permalink: people
       {% if person.googleplus %}<a href="https://plus.google.com/{{ person.googleplus }}"><i class="svg-icon googleplus"></i></a>{% endif %}
       {% if person.playconsole %}<a href="https://play.google.com/store/apps/dev?id={{ person.playconsole }}"><i class="svg-icon playconsole"></i></a>{% endif %}
       </div>
-      <p>{{ person.content | markdownify }}</p>
+      {% unless person.content.normalize_whitespace == Null %}<p>{{ person.content | normalize_whitespace }}</p>{% endunless %}
     </div>
   {% endfor %}
 </div>
