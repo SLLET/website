@@ -122,7 +122,7 @@ defaults:
 # Podcast
 slletshow:
   title: "The SLLET Radio Show"
-  person: "Phantom Radio"
+  author: "Phantom Radio"
   link: https://sllet.co.uk/slletshow
   email: show@sllet.co.uk
   art: https://www.dropbox.com/s/fi1cge2efs8xx05/SLLET%20radio%20square.png?raw=1
