@@ -4,7 +4,7 @@ title: 'How to Find Us'
 type: Trailer
 episode: Null
 season: Null
-artwork: https://www.dropbox.com/s/fi1cge2efs8xx05/SLLET%20radio%20square.png?raw=1
+artwork: '/images/SLLET radio square.png'
 mp3: https://www.dropbox.com/s/1ixhutvhhh08nwd/00.mp3?raw=1
 filelength: 589824
 duration: 46

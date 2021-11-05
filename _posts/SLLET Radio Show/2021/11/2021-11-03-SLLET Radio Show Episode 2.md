@@ -3,7 +3,7 @@ show: 'The SLLET Radio Show'
 title: "The SLLET Radio Show"
 episode: 2
 season: 1
-artwork: https://www.dropbox.com/s/fi1cge2efs8xx05/SLLET%20radio%20square.png?raw=1
+artwork: '/images/SLLET radio square.png'
 people: ['Host':['<a href="/people/joshbrunning">Josh Brunning</a>', '<a href="/people/danjellicoe">Dan Jellicoe</a>'], 'Guests': ['<a href="/people/fredjackson">Fred Jackson</a>'], 'Also Accidentally Featuring': ['Jess Moore','Jack Holcombe','Anna Alexander']]
 names:  ['joshbrunning','danjellicoe','fredjackson','jessmore','jackholcombe','annaalexander']
 mp3: https://www.dropbox.com/s/991ynug1xh6s8nl/02.mp3?raw=1
