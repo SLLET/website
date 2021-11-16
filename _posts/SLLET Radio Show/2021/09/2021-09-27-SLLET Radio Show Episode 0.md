@@ -3,7 +3,7 @@ show: 'The SLLET Radio Show'
 title: 'How to Find Us'
 type: Trailer
 episode: Null
-season: Null
+season: 1
 artwork: '/images/SLLET radio square.png'
 mp3: https://www.dropbox.com/s/1ixhutvhhh08nwd/00.mp3?raw=1
 filelength: 589824
@@ -17,7 +17,7 @@ date: 2021-09-28 02:31 +0100
 categories: slletshow podcast
 elsewhere: <a href="https://phantom-media.co.uk/phantom-radio/">Phantom Media</a>
 roles: Host
-permalink: /slletshow/0
+permalink: /show/0
 ---
 
 ## Where to Listen
