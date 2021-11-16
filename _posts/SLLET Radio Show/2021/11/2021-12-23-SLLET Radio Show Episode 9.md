@@ -1,22 +1,26 @@
 ---
 show: 'The SLLET Radio Show'
 title: "The SLLET Radio Show"
-episode: 1
+episode: 9
 season: 1
-artwork: '/images/SLLET radio square.png'
-people: ['Host':['<a href="/people/joshbrunning">Josh Brunning</a>', '<a href="/people/danjellicoe">Dan Jellicoe</a>'], 'Guests': ['<a href="/people/fredjackson">Fred Jackson</a>', '<a href="/people/zsomborszoke">Zsombor Szőke</a>']]
-names: ['joshbrunning','danjellicoe','fredjackson','zsomborszoke']
+artwork: https://www.dropbox.com/s/fi1cge2efs8xx05/SLLET%20radio%20square.png?raw=1
+people: ['Host':['<a href="/people/joshbrunning">Josh Brunning</a>', '<a href="/people/danjellicoe">Dan Jellicoe</a>']]
+names:  ['joshbrunning','danjellicoe']
+mp3: 
+filelength: 
+duration: 
+explicit: No
 
 layout: podcast
-date: 2021-10-27
-last_modified_at: 2021-10-27 22:52 +0100
-categories: slletshow
+date: 2021-12-23 15:00 +0000
+categories: slletshow radio live
 elsewhere: <a href="https://phantom-media.co.uk/phantom-radio/">Phantom Media</a>
 roles: Host
-permalink: /show/1
+permalink: /show/9
+hidden: true
 ---
 
-Unfortunately, due to some technical difficulties, the show wasn't recorded this week. All being well, we've fixed the issue and next weeks' will be. 
+<div style="text-align: center; margin: 15px 0; padding: 0"><iframe style="width: 75%; height: 60px; border: 0;" src="https://player.shoutca.st/?username=phantommedia"></iframe></div>
 
 ## Where to Listen
 * [Listen Live](https://phantom-media.co.uk/phantom-radio/)
@@ -35,7 +39,4 @@ Unfortunately, due to some technical difficulties, the show wasn't recorded this
 * [Instagram](https://instagram.com/SLLETshow)
 * [Twitter](https://twitter.com/SLLETshow)
 * [YouTube](https://youtube.com/channel/UClG7zTagAztOx5KhVwPgRVQ)
-
-## Get In Touch
-* On Social Media (links above)
 * [Email show@sllet.co.uk](mailto:show@sllet.co.uk)
