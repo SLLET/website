@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: LESLIE
+name: SLLET
 
 # Name of the person
 author: Josh Brunning
@@ -22,17 +22,17 @@ avatar: '/images/uod logo.jpg'
 footer-links:
   dribbble:
   email: hello@sllet.co.uk
-  facebook:
+  facebook: slletshow
   flickr:
   github: sllet
-  instagram:
+  instagram: slletshow
   linkedin: 
   pinterest:
   rss: feed.xml
-  twitter: 
+  twitter: slletshow
   patreon: 
   stackoverflow: 
-  youtube: # channel/<your_long_string> or user/<user-name>
+  youtube: channel/UClG7zTagAztOx5KhVwPgRVQ
   googleplus: # anything in your profile username that comes after plus.google.com/
   playconsole:
 
@@ -123,7 +123,7 @@ defaults:
 slletshow:
   title: "The SLLET Radio Show"
   author: "Phantom Radio"
-  link: https://sllet.co.uk/slletshow
+  link: https://sllet.co.uk/show
   email: show@sllet.co.uk
   art: https://www.dropbox.com/s/fi1cge2efs8xx05/SLLET%20radio%20square.png?raw=1
   category: Technology

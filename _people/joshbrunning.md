@@ -1,7 +1,7 @@
 ---
 short_name: joshbrunning
 title: Josh Brunning
-position: SLLET Student<br>Radio Host
+position: 2nd Year SLLET Student<br>Radio Host & Producer
 email: hello@josh.me.uk
 twitter: _josh_justjosh
 github: josh-justjosh

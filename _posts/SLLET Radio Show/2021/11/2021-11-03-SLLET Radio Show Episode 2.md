@@ -16,7 +16,7 @@ date: 2021-11-03 18:22 +0000
 categories: slletshow podcast
 elsewhere: <a href="https://phantom-media.co.uk/phantom-radio/">Phantom Media</a>
 roles: Host
-permalink: /slletshow/2
+permalink: /show/2
 ---
 
 We're Back! This week Dan and Josh were joined by Producer Fred again. They discussed Josh's to Alton Towers, an EDM trip to Sheffield and Dan's trip to Chichester. Also: an image of some legs, Christmas, and Eurovision.

@@ -28,6 +28,7 @@ layout: default
 <div style="text-align: center;">
   {% assign filtered_posts = site.posts | where: 'names', page.short_name %}
   {% for post in filtered_posts %}
+  {% unless post.hidden == true %}
   <article style="{% if post.categories contains "live" %}background-color: rgb(255, 85, 85); {% elsif post.categories contains "video" %}background-color: rgb(81, 180, 250); {% elsif post.categories contains "podcast" or post.categories contains "radio" %}background-color: rgb(138, 234, 146); {% elsif post.categories contains "update" %}background-color: rgba(255,128,0,0.25); {% endif %}padding: 1em;" class="post">
     {% if post.published == false %}
     <div class="post-unpublished">
@@ -69,6 +70,7 @@ layout: default
     {% endif %}
     {% if post.categories contains "podcast" or post.categories contains "radio" %}<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Show Notes</a>{% elsif post.categories contains "video" or post.categories contains "live" %}{% else %}<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>{% endif %}
     {% unless post.artwork <> Null %}
+    {% endunless %}
     {% endunless %}
   </article>
   {% endfor %}

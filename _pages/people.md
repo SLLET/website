@@ -5,9 +5,9 @@ permalink: people
 ---
 <h1>People</h1>
 
-<div style="display:flex; flex-wrap:wrap; justify-content: space-evenly; align-items: center">
+<div style="display:flex; flex-wrap:wrap; justify-content: space-evenly; align-items: center; flex-basis:content">
   {% for person in site.people %}
-    <div style="text-align:center">
+    <div style="text-align:center; margin: 10px">
       <!--{% unless person.photo.normalize_whitespace == "" %}<img width="200px" src="{{ person.photo | normalize_whitespace }}"/>{% endunless %}-->
       <h2 style="margin: 0;"><a href="{{ person.url }}">{{ person.title | replace: " ", "&nbsp;" }}</a></h2>
       <p class="post_date" style="margin: 0;">{{ person.position }}</p>
