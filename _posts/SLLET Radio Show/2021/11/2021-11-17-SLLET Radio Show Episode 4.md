@@ -13,10 +13,11 @@ explicit: No
 
 layout: podcast
 date: 2021-11-17 15:00 +0000
-categories: slletshow radio live
+categories: slletshow radio
 elsewhere: <a href="https://phantom-media.co.uk/phantom-radio/">Phantom Media</a>
 roles: Host
 permalink: /show/4
+hidden: true
 ---
 
 <div style="text-align: center; margin: 15px 0; padding: 0"><iframe style="width: 75%; height: 60px; border: 0;" src="https://player.shoutca.st/?username=phantommedia"></iframe></div>
