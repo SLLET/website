@@ -17,7 +17,7 @@ permalink: people
       {% if person.facebook %}<a href="https://www.facebook.com/{{ person.facebook }}"><i class="svg-icon facebook"></i></a>{% endif %}
       {% if person.flickr %}<a href="https://www.flickr.com/{{ person.flickr }}"><i class="svg-icon flickr"></i></a>{% endif %}
       {% if person.github %}<a href="https://github.com/{{ person.github }}"><i class="svg-icon github"></i></a>{% endif %}
-      {% if person.instagram %}<a href="https://instagram.com/{{ person.instagram }}"><i class="svg-icon instagram"></i></a>{% endif %}
+      {% if person.instagram %}<a href="https://instagram.com/{{ person.instagram }}/"><i class="svg-icon instagram"></i></a>{% endif %}
       {% if person.linkedin %}<a href="https://www.linkedin.com/in/{{ person.linkedin }}"><i class="svg-icon linkedin"></i></a>{% endif %}
       {% if person.pinterest %}<a href="https://www.pinterest.com/{{ person.pinterest }}"><i class="svg-icon pinterest"></i></a>{% endif %}
       {% if person.rss %}<a href="{{ person.rss }}"><i class="svg-icon rss"></i></a>{% endif %}
