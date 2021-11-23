@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+{% if page.hidden == true %}
+      <div class="post-hidden">
+        <p class="split">This Page is Unlisted</p>
+      </div>
+      {% endif %}
 <h1 style="margin-bottom: 0;">{{ page.title }}</h1>
 <p class="post_date" style="margin: 0;">{{ page.position }}</p>
 
