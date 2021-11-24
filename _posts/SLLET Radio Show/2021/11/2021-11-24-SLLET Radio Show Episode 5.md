@@ -4,7 +4,7 @@ title: "The SLLET Radio Show"
 episode: 5
 season: 1
 artwork: https://www.dropbox.com/s/fi1cge2efs8xx05/SLLET%20radio%20square.png?raw=1
-people: ['Host':['<a href="/people/joshbrunning">Josh Brunning</a>'], 'Guests': ['<a href="/people/fredjackson">Fred Jackson</a>','<a href="/people/zsomborszoke">Zsombor Szőke</a>',Also Featuring: ['<a href="/people/jackholcome">Jack Holcombe</a>']]]
+people: ['Host':['<a href="/people/joshbrunning">Josh Brunning</a>'], 'Guests': ['<a href="/people/fredjackson">Fred Jackson</a>','<a href="/people/zsomborszoke">Zsombor Szőke</a>'],Also Featuring: ['<a href="/people/jackholcome">Jack Holcombe</a>']]
 names:  ['joshbrunning','fredjackson',zsomborszoke,jackholcome]
 mp3: 
 filelength: 
