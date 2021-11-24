@@ -13,7 +13,7 @@ explicit: Yes
 
 layout: podcast
 date: 2021-11-24 15:00 +0000
-categories: slletshow radio live
+categories: slletshow podcast
 elsewhere: <a href="https://phantom-media.co.uk/phantom-radio/">Phantom Media</a>
 roles: Host
 permalink: /show/5
