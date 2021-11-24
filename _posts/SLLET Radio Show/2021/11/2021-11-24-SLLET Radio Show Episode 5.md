@@ -9,7 +9,7 @@ names:  ['joshbrunning','fredjackson',zsomborszoke]
 mp3: 
 filelength: 
 duration: 
-explicit: No
+explicit: Yes
 
 layout: podcast
 date: 2021-11-24 15:00 +0000
