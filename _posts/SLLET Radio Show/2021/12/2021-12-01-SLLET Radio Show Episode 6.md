@@ -4,7 +4,7 @@ title: "The SLLET Radio Show"
 episode: 6
 season: 1
 artwork: https://www.dropbox.com/s/fi1cge2efs8xx05/SLLET%20radio%20square.png?raw=1
-people: ['Host':['<a href="/people/joshbrunning">Josh Brunning</a>', '<a href="/people/danjellicoe">Dan Jellicoe</a>'], 'Guests': ['<a href="/people/fredjackson">Fred Jackson</a>','<a href="/people/masoncarter">Mason Carter</a>','<a href="/people/rossgilmour">Ross Gilmour</a>','<a href="/people/alexanderwuytjens">Alexander Wuytjens</a>','<a href="/people/zsomborszoke">Zsombor Szőke</a>']]
+people: ['Host':['<a href="/people/joshbrunning">Josh Brunning</a>', '<a href="/people/danjellicoe">Dan Jellicoe</a>'], 'Guests': ['<a href="/people/fredjackson">Fred Jackson</a>','<a href="/people/masoncarter">Mason Carter</a>','<a href="/people/rossgilmour">Ross Gilmour</a>','<a href="/people/alexanderwuytjens/">Alexander Wuytjens</a>','<a href="/people/zsomborszoke">Zsombor Szőke</a>']]
 names:  ['joshbrunning','danjellicoe','fredjackson','masoncarter','rossgilmour','alexanderwuytjens','zsomborszoke']
 mp3: https://www.dropbox.com/s/f1kg5l7ahubssnc/06.mp3?raw=1
 filelength: 305369088
