@@ -12,14 +12,14 @@ date: 2021-12-31
   {% assign posts = true %}
 <article style="{% if post.categories contains "video" %}background-color: rgb(81, 180, 250); {% elsif post.categories contains "podcast" or post.categories contains "radio" %}background-color: rgb(138, 234, 146); {% elsif post.categories contains "update" %}background-color: rgba(255,128,0,0.25); {% endif %}padding: 1em;" class="post">
       {% if post.published == false %}
-      <div class="post-unpublished">
-        <p class="split">Unpublished</p>
-      </div>
+        <div class="post-unpublished">
+          <p class="split">Unpublished</p>
+        </div>
       {% endif %}
       {% if post.artwork <> Null %}
-      <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); text-align: center; grid-gap: 1rem; margin:15px 0">
-        <div style="display: flex; flex-direction: column; height: 100%; justify-content: center; align-items: center;"><img height=auto width="200" style="vertical-align:middle;" src="{{post.artwork}}"></div>
-        <div style="grid-column-start: 2; grid-column-end: 4; display: flex; flex-direction: column; height: 100%; justify-content: center;">
+        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); text-align: center; grid-gap: 1rem; margin:15px 0">
+          <div style="display: flex; flex-direction: column; height: 100%; justify-content: center; align-items: center;"><img height=auto width="200" style="vertical-align:middle;" src="{{post.artwork}}"></div>
+          <div style="grid-column-start: 2; grid-column-end: 4; display: flex; flex-direction: column; height: 100%; justify-content: center;">
       {% endif %}
       <a href="{{ site.baseurl }}{{ post.url }}">
         <h1 style="margin-top: 0;">{% if post.categories contains "podcast" or post.categories contains "radio" %}{{post.show}}{% else %}{{ post.title }}{% endif %}</h1>
@@ -36,12 +36,8 @@ date: 2021-12-31
       </div>
         </div>
       {% endif %}
-      {% unless post.categories contains "podcast" or post.categories contains "radio" %}
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-      {% endunless %}
-      {% if post.mp3 <> Null %}
+      {{post.categories}}
+      {% if post.mp3 <> Nil %}
       <div style="text-align:center">
       <audio controls style="width: 75%;">
         <source src="{{ post.mp3 }}" type="audio/mpeg">
@@ -54,11 +50,9 @@ date: 2021-12-31
       </div>
       {% endif %}
       {% if post.categories contains "podcast" or post.categories contains "radio" %}<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Show Notes</a>{% elsif post.categories contains "video" or post.categories contains "live" %}{% else %}<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>{% endif %}
-      {% unless post.artwork <> Null %}
-      {% endunless %}
     </article>
   {% endunless %}
   {% endfor %}
   {% if posts == false %}
-  <p style="text-align:center;" ><br />Oops, there's nothing here at the moment!<br /><br />If I'm live blogging an event or doing a livestream, it'll show up here<br /><br />In the meantime, you can go back to the <a href="{{ site.baseurl }}/">main page</a></p>
+  <p style="text-align:center;" ><br />Oops, there's nothing here at the moment!<br /><br />If we're live blogging an event or doing a livestream, it'll show up here<br /><br />In the meantime, you can go back to the <a href="{{ site.baseurl }}/">main page</a></p>
   {% endif %}
