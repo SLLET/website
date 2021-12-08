@@ -4,8 +4,8 @@ title: "The SLLET Radio Show"
 episode: 7
 season: 
 artwork: https://www.dropbox.com/s/fi1cge2efs8xx05/SLLET%20radio%20square.png?raw=1
-people: ['Host':['<a href="/people/joshbrunning">Josh Brunning</a>','<a href="/people/danjellicoe">Dan Jellicoe</a>'], 'Guests': ['<a href="/people/fredjackson">Fred Jackson</a>','<a href="/people/maxrunacres">Max Runacres</a>','<a href="/people/beckyfarrar">Becky Farrar</a>','<a href="/people/chrisrice">Chris Rice</a>']]
-names:  ['joshbrunning','danjellicoe','fredjackson','maxrunacres','beckyfarrar','chrisrice']
+people: ['Host':['<a href="/people/joshbrunning">Josh Brunning</a>','<a href="/people/danjellicoe">Dan Jellicoe</a>'],'With Special Guest':'<a href="/people/bensams">Ben Sams</a>', 'Guests': ['<a href="/people/fredjackson">Fred Jackson</a>','<a href="/people/maxrunacres">Max Runacres</a>','<a href="/people/beckyfarrar">Becky Farrar</a>','<a href="/people/chrisrice">Chris Rice</a>']]
+names:  ['joshbrunning','danjellicoe','fredjackson','maxrunacres','beckyfarrar','chrisrice','bensams']
 mp3: 
 filelength: 
 duration: 
