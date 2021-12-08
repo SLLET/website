@@ -15,7 +15,7 @@ layout: podcast
 date: 2021-12-08 15:00 +0000
 categories: slletshow radio live
 elsewhere: <a href="https://phantom-media.co.uk/phantom-radio/">Phantom Media</a>
-roles: Host Producer
+roles: [Host, Producer]
 permalink: /show/7
 hidden: true
 ---
