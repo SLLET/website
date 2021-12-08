@@ -36,7 +36,6 @@ date: 2021-12-31
       </div>
         </div>
       {% endif %}
-      {{post.categories}}
       {% if post.mp3 <> Nil %}
       <div style="text-align:center">
       <audio controls style="width: 75%;">
