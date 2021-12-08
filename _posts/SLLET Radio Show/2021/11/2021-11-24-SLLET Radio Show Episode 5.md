@@ -2,10 +2,10 @@
 show: 'The SLLET Radio Show'
 title: "The SLLET Radio Show"
 episode: 5
-season: 1
+season: 
 artwork: https://www.dropbox.com/s/fi1cge2efs8xx05/SLLET%20radio%20square.png?raw=1
-people: ['Host':['<a href="/people/joshbrunning">Josh Brunning</a>'], 'Guests': ['<a href="/people/fredjackson">Fred Jackson</a>','<a href="/people/zsomborszoke">Zsombor Szőke</a>'],Also Featuring: ['<a href="/people/jackholcome">Jack Holcombe</a>']]
-names:  ['joshbrunning','fredjackson',zsomborszoke,jackholcome]
+people: ['Host':['<a href="/people/joshbrunning">Josh Brunning</a>'], 'Guests': ['<a href="/people/fredjackson">Fred Jackson</a>','<a href="/people/zsomborszoke">Zsombor Szőke</a>'],Also Featuring: ['<a href="/people/jackholcombe">Jack Holcombe</a>']]
+names:  ['joshbrunning','fredjackson',zsomborszoke,jackholcombe]
 mp3: https://www.dropbox.com/s/g67no54kjhqlhhi/05.mp3?raw=1
 filelength: 277184512
 duration: 6929

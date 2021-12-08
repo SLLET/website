@@ -2,7 +2,7 @@
 show: 'The SLLET Radio Show'
 title: "The SLLET Radio Show"
 episode: 3
-season: 1
+season: 
 artwork: https://www.dropbox.com/s/fi1cge2efs8xx05/SLLET%20radio%20square.png?raw=1
 people: ['Host':['<a href="/people/joshbrunning">Josh Brunning</a>', '<a href="/people/danjellicoe">Dan Jellicoe</a>'], 'Guests': ['<a href="/people/fredjackson">Fred Jackson</a>','<a href="/people/masoncarter">Mason Carter</a>','<a href="/people/rossgilmour">Ross Gilmour</a>']]
 names:  ['joshbrunning','danjellicoe','fredjackson','masoncarter','rossgilmour']

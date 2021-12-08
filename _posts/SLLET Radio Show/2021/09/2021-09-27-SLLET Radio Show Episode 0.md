@@ -2,8 +2,8 @@
 show: 'The SLLET Radio Show'
 title: 'How to Find Us'
 type: Trailer
-episode: Null
-season: 1
+episode: 
+season: 
 artwork: '/images/SLLET radio square.png'
 mp3: https://www.dropbox.com/s/1ixhutvhhh08nwd/00.mp3?raw=1
 filelength: 589824

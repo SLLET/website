@@ -2,7 +2,7 @@
 show: 'The SLLET Radio Show'
 title: "The SLLET Radio Show"
 episode: 2
-season: 1
+season: 
 artwork: '/images/SLLET radio square.png'
 people: ['Host':['<a href="/people/joshbrunning">Josh Brunning</a>', '<a href="/people/danjellicoe">Dan Jellicoe</a>'], 'Guests': ['<a href="/people/fredjackson">Fred Jackson</a>'], 'Also Accidentally Featuring': ['Jess Moore','<a href="/people/jackholcombe">Jack Holcombe</a>','<a href="/people/annaalexander">Anna Alexander</a>']]
 names:  ['joshbrunning','danjellicoe','fredjackson','jessmore','jackholcombe','annaalexander']
