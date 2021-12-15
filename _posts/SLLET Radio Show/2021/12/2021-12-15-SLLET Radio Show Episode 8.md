@@ -11,7 +11,7 @@ filelength:
 duration: 
 explicit: No
 
-layout: podcast
+layout: radio live
 date: 2021-12-15 15:00 +0000
 categories: slletshow radio live
 elsewhere: <a href="https://phantom-media.co.uk/phantom-radio/">Phantom Media</a>
