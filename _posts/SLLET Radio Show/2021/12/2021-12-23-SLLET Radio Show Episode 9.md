@@ -12,7 +12,7 @@ duration:
 explicit: No
 
 layout: podcast
-date: 2021-12-23 15:00 +0000
+date: 2021-12-22 15:00 +0000
 categories: slletshow radio live
 elsewhere: <a href="https://phantom-media.co.uk/phantom-radio/">Phantom Media</a>
 roles: Host
