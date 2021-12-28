@@ -6,8 +6,8 @@ season:
 artwork: '/images/SLLET radio square.png'
 people: ['Host':['<a href="/people/joshbrunning">Josh Brunning</a>', '<a href="/people/danjellicoe">Dan Jellicoe</a>'], 'Guests': ['<a href="/people/fredjackson">Fred Jackson</a>'], 'Also Accidentally Featuring': ['Jess Moore','<a href="/people/jackholcombe">Jack Holcombe</a>','<a href="/people/annaalexander">Anna Alexander</a>']]
 names:  ['joshbrunning','danjellicoe','fredjackson','jessmore','jackholcombe','annaalexander']
-mp3: https://www.dropbox.com/s/991ynug1xh6s8nl/02.mp3?raw=1
-filelength: 121118720
+mp3: https://www.dropbox.com/s/991ynug1xh6s8nl/2021-11-03%2002.mp3?raw=1
+filelength: 121751944
 duration: 7569
 explicit: No
 

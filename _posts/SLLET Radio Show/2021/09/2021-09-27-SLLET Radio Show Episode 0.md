@@ -5,8 +5,8 @@ type: Trailer
 episode: 
 season: 
 artwork: '/images/SLLET radio square.png'
-mp3: https://www.dropbox.com/s/1ixhutvhhh08nwd/00.mp3?raw=1
-filelength: 589824
+mp3: https://www.dropbox.com/s/1ixhutvhhh08nwd/2021-09-28%2000.mp3?raw=1
+filelength: 1222897
 duration: 46
 explicit: No
 people: ['Host':'<a href="/people/joshbrunning">Josh Brunning</a>']
@@ -16,7 +16,6 @@ layout: podcast
 date: 2021-09-28 02:31 +0100
 categories: slletshow podcast
 elsewhere: <a href="https://phantom-media.co.uk/phantom-radio/">Phantom Media</a>
-roles: Host
 permalink: /show/0
 hidden: true
 ---
@@ -30,7 +29,7 @@ hidden: true
 * [Listen on Overcast](https://overcast.fm/itunes1587759816)
 * [Listen on Spotify](https://open.spotify.com/show/3QFAmW6xEww6kiuk4CuKsG?si=tgOAAZV-S6K96rE0JrXvZg&dl_branch=1)
 * [Watch & Listen on YouTube](https://www.youtube.com/channel/UClG7zTagAztOx5KhVwPgRVQ)
-* [Podcast Feed (RSS)](https://blog.josh.me.uk/slletshow/rss.xml)
+* [Podcast Feed (RSS)](http://www.sllet.co.uk/show/rss)
 * [All the Links](https://linktr.ee/slletshow)
 
 ## Our Social Media

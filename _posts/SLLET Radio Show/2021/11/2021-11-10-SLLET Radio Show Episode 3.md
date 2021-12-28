@@ -3,11 +3,11 @@ show: 'The SLLET Radio Show'
 title: "The SLLET Radio Show"
 episode: 3
 season: 
-artwork: https://www.dropbox.com/s/fi1cge2efs8xx05/SLLET%20radio%20square.png?raw=1
+artwork: '/images/SLLET radio square.png'
 people: ['Host':['<a href="/people/joshbrunning">Josh Brunning</a>', '<a href="/people/danjellicoe">Dan Jellicoe</a>'], 'Guests': ['<a href="/people/fredjackson">Fred Jackson</a>','<a href="/people/masoncarter">Mason Carter</a>','<a href="/people/rossgilmour">Ross Gilmour</a>']]
 names:  ['joshbrunning','danjellicoe','fredjackson','masoncarter','rossgilmour']
-mp3: https://www.dropbox.com/s/zxplsmf4qjk3p2s/03.mp3?raw=1
-filelength: 118554624
+mp3: https://www.dropbox.com/s/zxplsmf4qjk3p2s/2021-11-10%2003.mp3?raw=1
+filelength: 119186926
 duration: 7409
 explicit: No
 
@@ -15,7 +15,6 @@ layout: podcast
 date: 2021-11-10 15:00 +0000
 categories: slletshow podcast
 elsewhere: <a href="https://phantom-media.co.uk/phantom-radio/">Phantom Media</a>
-roles: Host
 permalink: /show/3
 ---
 

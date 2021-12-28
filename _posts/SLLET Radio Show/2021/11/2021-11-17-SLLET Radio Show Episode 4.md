@@ -3,11 +3,11 @@ show: 'The SLLET Radio Show'
 title: "The SLLET Radio Show"
 episode: 4
 season: 
-artwork: https://www.dropbox.com/s/fi1cge2efs8xx05/SLLET%20radio%20square.png?raw=1
+artwork: '/images/SLLET radio square.png'
 people: ['Host':['<a href="/people/joshbrunning">Josh Brunning</a>', '<a href="/people/danjellicoe">Dan Jellicoe</a>'], 'Guests': ['<a href="/people/annaalexander">Anna Alexander</a>','<a href="/people/fredjackson">Fred Jackson</a>','<a href="/people/peterwilliams">Peter Williams</a>']]
 names:  ['joshbrunning','danjellicoe','annaalexander','fredjackson','peterwilliams']
-mp3: https://www.dropbox.com/s/gy42h57umhealji/04.mp3?raw=1
-filelength: 84045824
+mp3: https://www.dropbox.com/s/gy42h57umhealji/2021-11-17%2004.mp3?raw=1
+filelength: 84678847
 duration: 7199
 explicit: No
 
@@ -15,7 +15,6 @@ layout: podcast
 date: 2021-11-17 15:00 +0000
 categories: slletshow podcast
 elsewhere: <a href="https://phantom-media.co.uk/phantom-radio/">Phantom Media</a>
-roles: Host
 permalink: /show/4
 ---
 

@@ -3,11 +3,11 @@ show: 'The SLLET Radio Show'
 title: "The SLLET Radio Show"
 episode: 6
 season: 
-artwork: https://www.dropbox.com/s/fi1cge2efs8xx05/SLLET%20radio%20square.png?raw=1
+artwork: '/images/SLLET radio square.png'
 people: ['Host':['<a href="/people/joshbrunning">Josh Brunning</a>', '<a href="/people/danjellicoe">Dan Jellicoe</a>'], 'Guests': ['<a href="/people/fredjackson">Fred Jackson</a>','<a href="/people/masoncarter">Mason Carter</a>','<a href="/people/rossgilmour">Ross Gilmour</a>','<a href="/people/alexanderwuytjens/">Alexander Wuytjens</a>','<a href="/people/zsomborszoke">Zsombor Szőke</a>']]
 names:  ['joshbrunning','danjellicoe','fredjackson','masoncarter','rossgilmour','alexanderwuytjens','zsomborszoke']
-mp3: https://www.dropbox.com/s/f1kg5l7ahubssnc/06.mp3?raw=1
-filelength: 305369088
+mp3: https://www.dropbox.com/s/f1kg5l7ahubssnc/2021-12-01%2006.mp3?raw=1
+filelength: 305998798
 duration: 7634
 explicit: No
 
@@ -15,8 +15,7 @@ layout: podcast
 date: 2021-12-01 15:00 +0000
 categories: slletshow podcast
 elsewhere: <a href="https://phantom-media.co.uk/phantom-radio/">Phantom Media</a>
-roles: Host
 permalink: /show/6
 ---
 
-Busy studio this week, even less prep than usual (we had done some but it dissapeared on us) and Dan was back on stage. 
+Busy studio this week, even less prep than usual (we had done some but it dissapeared on us) and Dan was back on stage.
