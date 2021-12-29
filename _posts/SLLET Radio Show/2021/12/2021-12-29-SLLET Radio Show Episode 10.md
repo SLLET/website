@@ -13,9 +13,11 @@ explicit: No
 
 layout: podcast
 date: 2021-12-29 15:00 +0000
-categories: slletshow radio live
+categories: slletshow radio
 elsewhere: <a href="https://phantom-media.co.uk/phantom-radio/">Phantom Media</a>
 permalink: /show/10
 ---
 
 {% include phantomlive.html %}
+
+(The show will be released shortly)
