@@ -1,6 +1,6 @@
 ---
 show: 'The SLLET Radio Show'
-title:
+title: 'The SLLET Radio Show'
 episode: 10
 season: 
 artwork: '/images/SLLET radio square.png'
@@ -16,7 +16,6 @@ date: 2021-12-29 15:00 +0000
 categories: slletshow radio live
 elsewhere: <a href="https://phantom-media.co.uk/phantom-radio/">Phantom Media</a>
 permalink: /show/10
-hidden: true
 ---
 
 {% include phantomlive.html %}
