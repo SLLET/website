@@ -17,7 +17,6 @@ date: 2021-12-29 15:00 +0000
 categories: slletshow podcast
 elsewhere: <a href="https://phantom-media.co.uk/phantom-radio/">Phantom Media</a>
 permalink: /show/9-2
-hidden: true
 ---
 
 Josh and Dan aren't in Derby, so we'll be back next week.
