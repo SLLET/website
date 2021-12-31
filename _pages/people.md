@@ -27,6 +27,7 @@ permalink: people
       {% if person.youtube %}<a href="https://youtube.com/{{ person.youtube }}"><i class="svg-icon youtube"></i></a>{% endif %}
       {% if person.googleplus %}<a href="https://plus.google.com/{{ person.googleplus }}"><i class="svg-icon googleplus"></i></a>{% endif %}
       {% if person.playconsole %}<a href="https://play.google.com/store/apps/dev?id={{ person.playconsole }}"><i class="svg-icon playconsole"></i></a>{% endif %}
+      {% if person.website %}<a href="{{ person.website }}"><i class="svg-icon website"></i></a>{% endif %}
       </div>
       {% unless person.content.normalize_whitespace == Null %}<p>{{ person.content | normalize_whitespace }}</p>{% endunless %}
     </div>

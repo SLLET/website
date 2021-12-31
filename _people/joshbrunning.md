@@ -10,4 +10,5 @@ linkedin: joshua-brunning
 instagram: josh.brunning
 rss: https://blog.josh.me.uk/feed.xml
 photo: https://pbs.twimg.com/profile_images/1451274575183024128/7dTpWnMl_400x400.jpg
+website: https://josh.me.uk
 ---
