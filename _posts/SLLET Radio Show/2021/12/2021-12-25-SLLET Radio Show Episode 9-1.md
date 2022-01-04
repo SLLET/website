@@ -1,0 +1,22 @@
+---
+show: 'The SLLET Radio Show'
+title: 'A Christmas Message'
+episode:
+season: 
+artwork: '/images/SLLET radio square.png'
+people: ['Host': ['<a href="/people/joshbrunning">Josh Brunning</a>', '<a href="/people/danjellicoe">Dan Jellicoe</a>']]
+names:  ['joshbrunning','danjellicoe']
+mp3: https://www.dropbox.com/s/c2nhm6mlr50dzsb/2021-12-25%2009-1.mp3?raw=1
+filelength: 1434308
+duration: 65
+type: Bonus
+explicit: No
+
+layout: podcast
+date: 2021-12-25 06:18:07 +0000
+categories: slletshow podcast
+elsewhere: <a href="https://phantom-media.co.uk/phantom-radio/">Phantom Media</a>
+permalink: /show/9-1
+---
+
+A Christmas message from Dan and Josh
