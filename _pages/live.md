@@ -2,7 +2,6 @@
 layout: default
 permalink: /live
 title: The Live Page
-date: 2021-12-31
 ---
 {% assign posts = false %}
 <h1>{{page.title}}</h1>
@@ -36,17 +35,54 @@ date: 2021-12-31
       </div>
         </div>
       {% endif %}
-      {% if post.mp3 <> Nil %}
+      {% if post.show-excerpt == 'excerpt' %}
+    <div class="entry">
+      {{ post.excerpt }}
+    </div>
+    {% elsif post.mp3 <> Null and post.youtube <> Null %}
+    {% if post.show-excerpt == 'excerpt+yt' %}
+    <div class="entry">
+      {{ post.excerpt }}
+      <div style="text-align:center">
+        <iframe width="75%" height="400em" src="https://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    {% elsif post.show-excerpt == 'mp3' %}
+    <div style="text-align:center">
+      <audio controls style="width: 75%;">
+        <source src="{{ post.mp3 }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      </div>
+      {% elsif post.show-excerpt == 'youtube' %}<div style="text-align:center">
+        <iframe width="75%" height="400em" src="https://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      {% else %}
+      <div style="text-align:center">
+        <audio controls style="width: 75%;">
+          <source src="{{ post.mp3 }}" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <iframe width="75%" height="400em" src="https://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      {% endif %}
+     {% else %}
+      {% if post.mp3 <> Null %}
       <div style="text-align:center">
       <audio controls style="width: 75%;">
         <source src="{{ post.mp3 }}" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
-    </div>
-    {% else %}
+      </div>
+      {% elsif post.youtube <> Null %}{% if post.show-excerpt == 'excerpt+yt' %}
+      {{ post.excerpt }}{% endif %}
+      <div style="text-align:center">
+        <iframe width="75%" height="400em" src="https://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>{% else %}
       <div class="entry">
         {{ post.excerpt }}
       </div>
+      {% endif %}
       {% endif %}
       {% if post.categories contains "podcast" or post.categories contains "radio" %}<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Show Notes</a>{% elsif post.categories contains "video" or post.categories contains "live" %}{% else %}<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>{% endif %}
     </article>
