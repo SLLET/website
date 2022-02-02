@@ -51,7 +51,7 @@ layout: default
       {% if post.categories contains "podcast" or post.categories contains "radio" %}
         {% assign titlelc = post.title | downcase %}
         {% assign showlc = post.show | downcase %}
-        <h2 style="margin: 0;">{% unless post.season == Null %}Season {{ post.season }}{% endunless %}{% unless post.season == Null or post.episode == Null and titlelc == showlc %}: {% endunless %}{% unless post.episode == Null %}#{{ post.episode }}{% endunless %}{% unless post.episode == Null or titlelc == showlc %} - {% endunless %}{% unless titlelc == showlc %}"{{ post.title }}"{% endunless %}</h2>
+        <h2 style="margin: 0;">{% unless post.season == Null %}Season {{ post.season }}{% endunless %}{% unless post.season == Null or post.episode == Null and titlelc == showlc %}: {% endunless %}{% unless post.episode == Null %}#{{ post.episode }}{% endunless %}{% unless post.episode == Null or titlelc == showlc %} - {% endunless %}{% unless titlelc == showlc %}{{ post.title }}{% endunless %}</h2>
       {% endif %}
       {% unless post.categories contains "live" %}<div>
         <p class="post_date"{% if post.categories contains "video"  %} style="color: white;"{% endif %}>{{ post.date | date: "%e %B %Y" }}</p>
@@ -60,24 +60,61 @@ layout: default
     <div class="post-elsewhere">
       {% if post.elsewhere %}<p style="text-align: center;">🔀 from {{post.elsewhere}}</p>{% endif %}
     </div>
+    {% if post.artwork <> Null %}
     </div>
+  </div>
+  {% endif %}
+  {% if post.show-excerpt == 'excerpt' %}
+  <div class="entry">
+    {{ post.excerpt }}
+  </div>
+  {% elsif post.mp3 <> Null and post.youtube <> Null %}
+  {% if post.show-excerpt == 'excerpt+yt' %}
+  <div class="entry">
+    {{ post.excerpt }}
+    <div style="text-align:center">
+      <iframe width="75%" height="400em" src="https://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    {% if post.mp3 <> Null %}
+  </div>
+  {% elsif post.show-excerpt == 'mp3' %}
+  <div style="text-align:center">
+    <audio controls style="width: 75%;">
+      <source src="{{ post.mp3 }}" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    </div>
+    {% elsif post.show-excerpt == 'youtube' %}<div style="text-align:center">
+      <iframe width="75%" height="400em" src="https://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    {% else %}
     <div style="text-align:center">
       <audio controls style="width: 75%;">
         <source src="{{ post.mp3 }}" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
+      <iframe width="75%" height="400em" src="https://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    {% else %}
+    {% endif %}
+   {% else %}
+    {% if post.mp3 <> Null %}
+    <div style="text-align:center">
+    <audio controls style="width: 75%;">
+      <source src="{{ post.mp3 }}" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    </div>
+    {% elsif post.youtube <> Null %}{% if post.show-excerpt == 'excerpt+yt' %}
+    {{ post.excerpt }}{% endif %}
+    <div style="text-align:center">
+      <iframe width="75%" height="400em" src="https://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>{% else %}
     <div class="entry">
       {{ post.excerpt }}
     </div>
     {% endif %}
+    {% endif %}
     {% if post.categories contains "podcast" or post.categories contains "radio" %}<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Show Notes</a>{% elsif post.categories contains "video" or post.categories contains "live" %}{% else %}<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>{% endif %}
-    {% unless post.artwork <> Null %}
-    {% endunless %}
-    {% endunless %}
   </article>
+  {% endunless %}
   {% endfor %}
 </div>
