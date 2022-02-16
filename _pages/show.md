@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /show
+permalink: /show/
 title: The SLLET Radio Show
 date: 2021-12-31
 ---
