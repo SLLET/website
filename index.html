@@ -44,7 +44,7 @@ date: 2021-12-31
     <div class="entry">
       {{ post.excerpt }}
       <div style="text-align:center">
-        {% include youtube.html link=page.youtube %}
+        <!--{% include youtube.html link=page.youtube %}-->
       </div>
     </div>
     {% elsif post.show-excerpt == 'mp3' %}
@@ -55,7 +55,7 @@ date: 2021-12-31
       </audio>
       </div>
       {% elsif post.show-excerpt == 'youtube' %}<div style="text-align:center">
-        {% include youtube.html link=page.youtube %}
+        <!--{% include youtube.html link=page.youtube %}-->
        </div>
       {% else %}
       <div style="text-align:center">
@@ -63,7 +63,7 @@ date: 2021-12-31
           <source src="{{ post.mp3 }}" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
-        {% include youtube.html link=page.youtube %}
+        <!--{% include youtube.html link=page.youtube %}-->
        </div>
       {% endif %}
      {% else %}
@@ -74,17 +74,18 @@ date: 2021-12-31
         Your browser does not support the audio element.
       </audio>
       </div>
-      {% elsif post.youtube <> Null %}{% if post.show-excerpt == 'excerpt+yt' %}
-      {{ post.excerpt }}{% endif %}
-      <div style="text-align:center">
-        {% include youtube.html link=page.youtube %}
+      {% elsif post.youtube <> Null %}
+      {% if post.show-excerpt == 'excerpt+yt' %}
+        {{ post.excerpt }}{% endif %}
+        <div style="text-align:center">
+        <!--{% include youtube.html link=page.youtube %}-->
       </div>{% else %}
       <div class="entry">
         {{ post.excerpt }}
       </div>
       {% endif %}
       {% endif %}
-      {% if post.categories contains "podcast" or post.categories contains "radio" %}<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Show Notes</a>{% elsif post.categories contains "video" or post.categories contains "live" %}{% else %}<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>{% endif %}
+      {% if post.categories contains "video" %}<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Watch Video</a>{% elsif post.categories contains "podcast" or post.categories contains "radio" %}<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Show Notes</a>{% elsif post.categories contains "live" %}{% else %}<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>{% endif %}
     </article>
   {% endfor %}
 
