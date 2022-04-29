@@ -1,6 +1,6 @@
 ---
 short_name: alexanderwuytjens
 title: Alexander Wuytjens
-position: Erasmus Student
+position: Autumn 2021 Erasmus Student
 instagram: alexanderwuytjens
 ---
