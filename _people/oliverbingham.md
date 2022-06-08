@@ -1,5 +1,7 @@
 ---
 short_name: oliverbingham
 title: Oliver Bingham
-position: 3rd Year SLLET Student
+position: 2022 SLLET Graduate
+instagram: oliver.bingham.2001
+linkedin: oliver-bingham-748798224
 ---
