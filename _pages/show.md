@@ -18,7 +18,7 @@ date: 2021-12-31
   <a href="https://facebook.com/slletshow"><i class="svg-icon facebook"></i></a>
   <a href="https://instagram.com/slletshow"><i class="svg-icon instagram"></i></a>
   <a href="https://twitter.com/slletshow"><i class="svg-icon twitter"></i></a>
-  <a href="mailto:slletshow@gmail.com"><i class="svg-icon email"></i></a>
+  <a href="mailto:show@sllet.co.uk"><i class="svg-icon email"></i></a>
 </div>
 <div class="posts">
   {% for post in site.categories['slletshow'] %}
