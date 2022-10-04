@@ -1,6 +1,6 @@
 ---
 short_name: luxnovaphoenix
 title: Lux Nova Phoenix
-position: 1st Year SLLET Student<br>Phantom Radio Assistant Technical Manager
+position: SLLET Student (2021-24)<br>Phantom Radio Assistant Technical Manager (2021-22)
 instagram: lux_nova_phoenix
 ---

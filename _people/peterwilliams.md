@@ -1,5 +1,5 @@
 ---
 short_name: peterwilliams
 title: Peter Williams
-position: 2nd Year SLLET Student
+position: SLLET Student (2020-23)
 ---

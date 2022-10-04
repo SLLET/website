@@ -1,6 +1,6 @@
 ---
 short_name: maxrunacres
 title: Max Runacres
-position: 2nd Year SLLET Student
+position: SLLET Student (2020-23)
 instagram: maxrunacres
 ---
