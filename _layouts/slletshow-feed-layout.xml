@@ -36,7 +36,7 @@ layout: null
         type="audio/mp3"/>
       <link>{{ site.url }}{{ post.url }}</link>
       <guid>{{ site.url }}{{ post.url }}</guid>
-      <itunes:title>{{ post.title }}</itunes:title>
+      <itunes:title>{% if titlelc == showlc %}{{ post.date | date: "%A" }} {% assign d = post.date | date: "%d" | plus:'0' %}{% case d %}{% when 1 or 21 or 31 %}{{ d }}st{% when 2 or 22 %}{{ d }}nd{% when 3 or 23 %}{{ d }}rd{% else %}{{ d }}th{% endcase %} {{ post.date | date: "%B %Y" }}{% else %}{{ post.title }}{% endif %}</itunes:title>
       {% unless post.episode == Null %}<itunes:episode>{{ post.episode }}</itunes:episode>{% endunless %}
       {% unless post.season == Null %}<itunes:season>{{ post.season }}</itunes:season>{% endunless %}
       {% unless post.type == Null %}<itunes:episodeType>{{ post.type }}</itunes:episodeType>{% endunless %}
