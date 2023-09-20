@@ -1,7 +1,7 @@
 ---
 short_name: masoncarter
 title: Mason Carter
-position: SLLET Student (2020-23)
+position: 2023 SLLET Graduate
 instagram: pillowfists99
 linkedin: mason-carter-23762a146
 ---

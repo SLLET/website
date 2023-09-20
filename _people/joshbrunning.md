@@ -1,7 +1,7 @@
 ---
 short_name: joshbrunning
 title: Josh Brunning
-position: SLLET Student (2020-23)<br>Phantom Radio Host & Producer<br>Head of Phantom TV
+position: 2023 SLLET Graduate<br>Phantom Radio Host & Producer<br>Head of Phantom TV
 email: hello@josh.me.uk
 twitter: _josh_justjosh
 github: josh-justjosh

@@ -1,6 +1,6 @@
 ---
 short_name: rossgilmour
 title: Ross Gilmour
-position: SLLET Student (2020-23)
+position: 2023 SLLET Graduate
 instagram: boss1793
 ---
