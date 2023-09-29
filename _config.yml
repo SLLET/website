@@ -6,7 +6,7 @@
 name: SLLET
 
 # Name of the person
-author: Josh Brunning
+author: Josh Brunning & Tayo Wilson
 
 # Short bio or description (displayed in the header)
 description: Potentially Dangerous
@@ -30,7 +30,7 @@ footer-links:
   linkedin: 
   pinterest:
   rss: feed.xml
-  twitter: slletshow
+  #twitter: slletshow
   patreon: 
   stackoverflow: 
   youtube: channel/UClG7zTagAztOx5KhVwPgRVQ

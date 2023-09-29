@@ -2,7 +2,6 @@
 layout: default
 permalink: /show/
 title: The SLLET Radio Show
-date: 2021-12-31
 ---
 <img src="/images/SLLET radio wide.png">
 <!--<h1>{{page.title}}</h1>-->
@@ -17,7 +16,7 @@ date: 2021-12-31
   <i class="svg-icon"></i>
   <a href="https://facebook.com/slletshow"><i class="svg-icon facebook"></i></a>
   <a href="https://instagram.com/slletshow"><i class="svg-icon instagram"></i></a>
-  <a href="https://twitter.com/slletshow"><i class="svg-icon twitter"></i></a>
+  <!--<a href="https://twitter.com/slletshow"><i class="svg-icon twitter"></i></a>-->
   <a href="mailto:show@sllet.co.uk"><i class="svg-icon email"></i></a>
 </div>
 <div class="posts">

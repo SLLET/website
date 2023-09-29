@@ -57,7 +57,7 @@
         <div class="container">
           <footer class="footer">
             {% include svg-icons.html %}
-            <p>&copy; Copyright {{ site.author }} {% if page.last_modified_at %}{{page.last_modified_at | date: '%Y' }}{% else %}{{page.date | date: '%Y' }}{% endif %}</p>
+            <p>&copy; Copyright {{ site.author }} {% if page.last_modified_at %}{{page.last_modified_at | date: '%Y' }}{% elsif page.date %}{{ page.date | date: '%Y' }}{% else %}{{ "now" | date: '%Y' }}{% endif %}</p>
           </footer>
         </div>
       </div>
