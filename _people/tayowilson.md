@@ -1,5 +1,5 @@
 ---
 short_name: tayowilson
 title: Tayo Wilson
-position: 2022-25 SLLEE Student
+position: 2022-25 SLLEE Student<br>Phantom Live Events Manager
 ---

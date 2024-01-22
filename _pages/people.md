@@ -4,9 +4,9 @@ title: People
 permalink: people
 ---
 <h1>People</h1>
-
+{% assign hidden = "jackholcombe" | split: ", " %}
 <div style="display:flex; flex-wrap:wrap; justify-content: space-evenly; align-items: center; flex-basis:content">
-  {% for person in site.people %}
+  {% for person in site.people %}{% unless hidden contains person.short_name %}
     <div style="text-align:center; margin: 10px">
       <!--{% unless person.photo.normalize_whitespace == "" %}<img width="200px" src="{{ person.photo | normalize_whitespace }}"/>{% endunless %}-->
       <h2 style="margin: 0;"><a href="{{ person.url }}">{{ person.title | replace: " ", "&nbsp;" }}</a></h2>
@@ -31,5 +31,5 @@ permalink: people
       </div>
       {% unless person.content.normalize_whitespace == Null %}<p>{{ person.content | normalize_whitespace }}</p>{% endunless %}
     </div>
-  {% endfor %}
+  {% endunless %}{% endfor %}
 </div>
